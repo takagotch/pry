@@ -1,0 +1,31 @@
+//
+show-doc ?
+ri
+show-method $
+
+//ex
+show-doc User.all.includes
+? User.all
+
+ri Hash#delete_if
+
+show-method Array#each
+show-method User.has_many
+
+//
+ls -m
+ls --grep
+
+//
+
+//ex
+User.all.pry
+edit exec_queries
+# binding.pry
+reload!
+
+edit @klass.find_by
+edit @kalss.find_by_
+edit @klass.find_by_sql
+edit find_with_association
+
