@@ -10,7 +10,9 @@ binding.pry
 irb
 rails console
 
----sh
+---
+
+```sh
 gem install pry
 pry
 cd FileUtils
@@ -29,6 +31,7 @@ shell-mode
 .cat .pryrc
 load ".pryrc"
 hello_world
+
 ```
 
 ```ruby
